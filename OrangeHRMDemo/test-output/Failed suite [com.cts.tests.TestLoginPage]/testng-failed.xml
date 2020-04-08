@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Failed suite [com.cts.tests.TestLoginPage]]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)(failed)">
+    <classes>
+      <class name="com.cts.tests.TestLoginPage">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- com.cts.tests.TestLoginPage -->
+    </classes>
+  </test> <!-- Command line test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [com.cts.tests.TestLoginPage]] -->

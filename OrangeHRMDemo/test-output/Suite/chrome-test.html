@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  chrome-test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>chrome-test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 08 16:31:00 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>284 seconds (284140 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cts.tests.TestLoginPage.login()'><b>login</b><br>Test class: com.cts.tests.TestLoginPage<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestLoginPage@313ac989</td></tr>
+<tr>
+<td title='com.cts.tests.TestLoginPage.login()'><b>login</b><br>Test class: com.cts.tests.TestLoginPage<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestLoginPage@313ac989</td></tr>
+<tr>
+<td title='com.cts.tests.TestAdminJobCategories.login()'><b>login</b><br>Test class: com.cts.tests.TestAdminJobCategories<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>2</td>
+<td>com.cts.tests.TestAdminJobCategories@4562e04d</td></tr>
+<tr>
+<td title='com.cts.tests.TestAdminJobCategories.login()'><b>login</b><br>Test class: com.cts.tests.TestAdminJobCategories<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>6</td>
+<td>com.cts.tests.TestAdminJobCategories@4562e04d</td></tr>
+<tr>
+<td title='com.cts.tests.TestLeavesPage.login()'><b>login</b><br>Test class: com.cts.tests.TestLeavesPage<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestLeavesPage@2a65fe7c</td></tr>
+<tr>
+<td title='com.cts.tests.TestLeavesPage.login()'><b>login</b><br>Test class: com.cts.tests.TestLeavesPage<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestLeavesPage@2a65fe7c</td></tr>
+<tr>
+<td title='com.cts.tests.TestMaintenancePage.login()'><b>login</b><br>Test class: com.cts.tests.TestMaintenancePage<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestMaintenancePage@4135c3b</td></tr>
+<tr>
+<td title='com.cts.tests.TestMaintenancePage.login()'><b>login</b><br>Test class: com.cts.tests.TestMaintenancePage<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>7</td>
+<td>com.cts.tests.TestMaintenancePage@4135c3b</td></tr>
+<tr>
+<td title='com.cts.tests.TestDashboard.login()'><b>login</b><br>Test class: com.cts.tests.TestDashboard<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>3</td>
+<td>com.cts.tests.TestDashboard@6302bbb1</td></tr>
+<tr>
+<td title='com.cts.tests.TestDashboard.login()'><b>login</b><br>Test class: com.cts.tests.TestDashboard<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>6</td>
+<td>com.cts.tests.TestDashboard@6302bbb1</td></tr>
+<tr>
+<td title='com.cts.tests.TestLogoutpage.login()'><b>login</b><br>Test class: com.cts.tests.TestLogoutpage<br>Parameters: Nagendra1998, nagendra0106</td>
+<td></td>
+<td>2</td>
+<td>com.cts.tests.TestLogoutpage@31304f14</td></tr>
+<tr>
+<td title='com.cts.tests.TestLogoutpage.login()'><b>login</b><br>Test class: com.cts.tests.TestLogoutpage<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>4</td>
+<td>com.cts.tests.TestLogoutpage@31304f14</td></tr>
+<tr>
+<td title='com.cts.tests.TestAdminJobCategories.testadmin()'><b>testadmin</b><br>Test class: com.cts.tests.TestAdminJobCategories</td>
+<td></td>
+<td>10</td>
+<td>com.cts.tests.TestAdminJobCategories@4562e04d</td></tr>
+<tr>
+<td title='com.cts.tests.TestLeavesPage.testleaves()'><b>testleaves</b><br>Test class: com.cts.tests.TestLeavesPage</td>
+<td></td>
+<td>18</td>
+<td>com.cts.tests.TestLeavesPage@2a65fe7c</td></tr>
+<tr>
+<td title='com.cts.tests.TestDashboard.testleaves()'><b>testleaves</b><br>Test class: com.cts.tests.TestDashboard</td>
+<td></td>
+<td>8</td>
+<td>com.cts.tests.TestDashboard@6302bbb1</td></tr>
+<tr>
+<td title='com.cts.tests.TestLogoutpage.testlogout()'><b>testlogout</b><br>Test class: com.cts.tests.TestLogoutpage</td>
+<td></td>
+<td>10</td>
+<td>com.cts.tests.TestLogoutpage@31304f14</td></tr>
+<tr>
+<td title='com.cts.tests.TestMaintenancePage.testmaintenance()'><b>testmaintenance</b><br>Test class: com.cts.tests.TestMaintenancePage</td>
+<td></td>
+<td>10</td>
+<td>com.cts.tests.TestMaintenancePage@4135c3b</td></tr>
+</table><p>
+</body>
+</html>
